@@ -271,7 +271,7 @@ def predict():
 
     time.sleep(900)
     api_key = "api key"
-    url_game_data = "https://127.0.0.1:2999/liveclientdata/allgamedata"
+    url_game_data = "url"
 
 
     resp_game_data = requests.get(url_game_data, verify=False)
