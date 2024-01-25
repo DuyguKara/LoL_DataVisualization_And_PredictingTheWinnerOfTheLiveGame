@@ -19,3 +19,6 @@ This project uses Python programming to visually analyze the dynamics of League 
 
 ## Tecnologies And Approaches
 In this project, we established the web application infrastructure using the Flask framework. We used various python libraries and preferred the pandas library for visualization. We accessed the data sets using Riot API and arranged them according to our needs. On the machine learning side, we used the logistic regression approach using the scikit - learn library. We created a world map using the Plotly library and here we can see the regions where LoL has servers in the world.
+
+## Pdf File
+If you are curious about the appearance of our website, you can look at the screenshots in the pdf file.
