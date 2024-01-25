@@ -6,7 +6,7 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 
 api_key = "api key"
-url_game_data = "https://127.0.0.1:2999/liveclientdata/allgamedata"
+url_game_data = "url"
 
 
 time.sleep(900)
