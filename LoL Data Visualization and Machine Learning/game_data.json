@@ -1,0 +1,1893 @@
+{
+  "activePlayer": {
+    "abilities": {
+      "E": {
+        "abilityLevel": 4,
+        "displayName": "Işık Patlaması",
+        "id": "LuxLightStrikeKugel",
+        "rawDescription": "GeneratedTip_Spell_LuxLightStrikeKugel_Description",
+        "rawDisplayName": "GeneratedTip_Spell_LuxLightStrikeKugel_DisplayName"
+      },
+      "Passive": {
+        "displayName": "Aydınlanma",
+        "id": "LuxIlluminationPassive",
+        "rawDescription": "GeneratedTip_Passive_LuxIlluminationPassive_Description",
+        "rawDisplayName": "GeneratedTip_Passive_LuxIlluminationPassive_DisplayName"
+      },
+      "Q": {
+        "abilityLevel": 3,
+        "displayName": "Işık Bağı",
+        "id": "LuxLightBinding",
+        "rawDescription": "GeneratedTip_Spell_LuxLightBinding_Description",
+        "rawDisplayName": "GeneratedTip_Spell_LuxLightBinding_DisplayName"
+      },
+      "R": {
+        "abilityLevel": 1,
+        "displayName": "Son Parıltı",
+        "id": "LuxR",
+        "rawDescription": "GeneratedTip_Spell_LuxR_Description",
+        "rawDisplayName": "GeneratedTip_Spell_LuxR_DisplayName"
+      },
+      "W": {
+        "abilityLevel": 1,
+        "displayName": "Prizmatik Bariyer",
+        "id": "LuxPrismaticWave",
+        "rawDescription": "GeneratedTip_Spell_LuxPrismaticWave_Description",
+        "rawDisplayName": "GeneratedTip_Spell_LuxPrismaticWave_DisplayName"
+      }
+    },
+    "championStats": {
+      "abilityHaste": 21.5,
+      "abilityPower": 127.0,
+      "armor": 62.04800033569336,
+      "armorPenetrationFlat": 0.0,
+      "armorPenetrationPercent": 1.0,
+      "attackDamage": 76.24200439453125,
+      "attackRange": 550.0,
+      "attackSpeed": 0.7953750491142273,
+      "bonusArmorPenetrationPercent": 1.0,
+      "bonusMagicPenetrationPercent": 1.0,
+      "critChance": 0.0,
+      "critDamage": 175.0,
+      "currentHealth": 1093.8863525390625,
+      "healShieldPower": 0.0,
+      "healthRegenRate": 9.624959945678711,
+      "lifeSteal": 0.0,
+      "magicLethality": 0.0,
+      "magicPenetrationFlat": 0.0,
+      "magicPenetrationPercent": 1.0,
+      "magicResist": 38.762001037597656,
+      "maxHealth": 1297.260009765625,
+      "moveSpeed": 330.0,
+      "omnivamp": 0.0,
+      "physicalLethality": 0.0,
+      "physicalVamp": 0.0,
+      "resourceMax": 1188.3900146484375,
+      "resourceRegenRate": 2.4783999919891357,
+      "resourceType": "MANA",
+      "resourceValue": 1188.3900146484375,
+      "spellVamp": 0.0,
+      "tenacity": 5.0
+    },
+    "currentGold": 682.8243408203125,
+    "fullRunes": {
+      "generalRunes": [
+        {
+          "displayName": "Kara Hasat",
+          "id": 8128,
+          "rawDescription": "perk_tooltip_DarkHarvest",
+          "rawDisplayName": "perk_displayname_DarkHarvest"
+        },
+        {
+          "displayName": "Belden Aşağı",
+          "id": 8126,
+          "rawDescription": "perk_tooltip_CheapShot",
+          "rawDisplayName": "perk_displayname_CheapShot"
+        },
+        {
+          "displayName": "Gözyuvarı Koleksiyonu",
+          "id": 8138,
+          "rawDescription": "perk_tooltip_EyeballCollection",
+          "rawDisplayName": "perk_displayname_EyeballCollection"
+        },
+        {
+          "displayName": "Mükemmel Avcı",
+          "id": 8106,
+          "rawDescription": "perk_tooltip_UltimateHunter",
+          "rawDisplayName": "perk_displayname_UltimateHunter"
+        },
+        {
+          "displayName": "Mana Akışı Yüzüğü",
+          "id": 8226,
+          "rawDescription": "perk_tooltip_8226",
+          "rawDisplayName": "perk_displayname_8226"
+        },
+        {
+          "displayName": "Yücelik",
+          "id": 8210,
+          "rawDescription": "perk_tooltip_Transcendence",
+          "rawDisplayName": "perk_displayname_Transcendence"
+        }
+      ],
+      "keystone": {
+        "displayName": "Kara Hasat",
+        "id": 8128,
+        "rawDescription": "perk_tooltip_DarkHarvest",
+        "rawDisplayName": "perk_displayname_DarkHarvest"
+      },
+      "primaryRuneTree": {
+        "displayName": "Hâkimiyet",
+        "id": 8100,
+        "rawDescription": "perkstyle_tooltip_7200",
+        "rawDisplayName": "perkstyle_displayname_7200"
+      },
+      "secondaryRuneTree": {
+        "displayName": "Büyücülük",
+        "id": 8200,
+        "rawDescription": "perkstyle_tooltip_7202",
+        "rawDisplayName": "perkstyle_displayname_7202"
+      },
+      "statRunes": [
+        {
+          "id": 5008,
+          "rawDescription": "perk_tooltip_StatModAdaptive"
+        },
+        {
+          "id": 5008,
+          "rawDescription": "perk_tooltip_StatModAdaptive"
+        },
+        {
+          "id": 5002,
+          "rawDescription": "perk_tooltip_StatModArmor"
+        }
+      ]
+    },
+    "level": 9,
+    "summonerName": "Cekku#Balım",
+    "teamRelativeColors": true
+  },
+  "allPlayers": [
+    {
+      "championName": "Karthus",
+      "isBot": false,
+      "isDead": true,
+      "items": [
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Doran'ın Yüzüğü",
+          "itemID": 1056,
+          "price": 400,
+          "rawDescription": "GeneratedTip_Item_1056_Description",
+          "rawDisplayName": "Item_1056_Name",
+          "slot": 0
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Habaset",
+          "itemID": 3118,
+          "price": 700,
+          "rawDescription": "GeneratedTip_Item_3118_Description",
+          "rawDisplayName": "Item_3118_Name",
+          "slot": 1
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Sihirbaz Pabuçları",
+          "itemID": 3020,
+          "price": 800,
+          "rawDescription": "GeneratedTip_Item_3020_Description",
+          "rawDisplayName": "Item_3020_Name",
+          "slot": 2
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Liandry'nin Eziyeti",
+          "itemID": 6653,
+          "price": 850,
+          "rawDescription": "GeneratedTip_Item_6653_Description",
+          "rawDisplayName": "Item_6653_Name",
+          "slot": 3
+        },
+        {
+          "canUse": true,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Görünmez Totem",
+          "itemID": 3340,
+          "price": 0,
+          "rawDescription": "GeneratedTip_Item_3340_Description",
+          "rawDisplayName": "Item_3340_Name",
+          "slot": 6
+        }
+      ],
+      "level": 13,
+      "position": "TOP",
+      "rawChampionName": "game_character_displayname_Karthus",
+      "rawSkinName": "game_character_skin_displayname_Karthus_3",
+      "respawnTimer": 29.50143051147461,
+      "runes": {
+        "keystone": {
+          "displayName": "İlk Vuruş",
+          "id": 8369,
+          "rawDescription": "perk_tooltip_FirstStrike",
+          "rawDisplayName": "perk_displayname_FirstStrike"
+        },
+        "primaryRuneTree": {
+          "displayName": "İlham",
+          "id": 8300,
+          "rawDescription": "perkstyle_tooltip_7203",
+          "rawDisplayName": "perkstyle_displayname_7203"
+        },
+        "secondaryRuneTree": {
+          "displayName": "Hâkimiyet",
+          "id": 8100,
+          "rawDescription": "perkstyle_tooltip_7200",
+          "rawDisplayName": "perkstyle_displayname_7200"
+        }
+      },
+      "scores": {
+        "assists": 2,
+        "creepScore": 130,
+        "deaths": 6,
+        "kills": 1,
+        "wardScore": 9.591684341430664
+      },
+      "skinID": 3,
+      "skinName": "Azrail Karthus",
+      "summonerName": "plzhgdjTR",
+      "summonerSpells": {
+        "summonerSpellOne": {
+          "displayName": "Bitkinlik",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerExhaust_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerExhaust_DisplayName"
+        },
+        "summonerSpellTwo": {
+          "displayName": "Dizginsiz Işınlanma",
+          "rawDescription": "GeneratedTip_SummonerSpell_S12_SummonerTeleportUpgrade_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_S12_SummonerTeleportUpgrade_DisplayName"
+        }
+      },
+      "team": "ORDER"
+    },
+    {
+      "championName": "Shaco",
+      "isBot": false,
+      "isDead": false,
+      "items": [
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Elektrikli Devirkılıcı",
+          "itemID": 6699,
+          "price": 863,
+          "rawDescription": "GeneratedTip_Item_6699_Description",
+          "rawDisplayName": "Item_6699_Name",
+          "slot": 0
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Tahsildar",
+          "itemID": 6676,
+          "price": 625,
+          "rawDescription": "GeneratedTip_Item_6676_Description",
+          "rawDisplayName": "Item_6676_Name",
+          "slot": 1
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Yelgezer Yavrusu",
+          "itemID": 1102,
+          "price": 450,
+          "rawDescription": "GeneratedTip_Item_1102_Description",
+          "rawDisplayName": "Item_1102_Name",
+          "slot": 2
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Hançer",
+          "itemID": 1042,
+          "price": 300,
+          "rawDescription": "GeneratedTip_Item_1042_Description",
+          "rawDisplayName": "Item_1042_Name",
+          "slot": 4
+        },
+        {
+          "canUse": true,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Görünmez Totem",
+          "itemID": 3340,
+          "price": 0,
+          "rawDescription": "GeneratedTip_Item_3340_Description",
+          "rawDisplayName": "Item_3340_Name",
+          "slot": 6
+        }
+      ],
+      "level": 10,
+      "position": "JUNGLE",
+      "rawChampionName": "game_character_displayname_Shaco",
+      "respawnTimer": 0.0,
+      "runes": {
+        "keystone": {
+          "displayName": "Keskin Sağanak",
+          "id": 9923,
+          "rawDescription": "perk_tooltip_HailOfBlades",
+          "rawDisplayName": "perk_displayname_HailOfBlades"
+        },
+        "primaryRuneTree": {
+          "displayName": "Hâkimiyet",
+          "id": 8100,
+          "rawDescription": "perkstyle_tooltip_7200",
+          "rawDisplayName": "perkstyle_displayname_7200"
+        },
+        "secondaryRuneTree": {
+          "displayName": "İsabet",
+          "id": 8000,
+          "rawDescription": "perkstyle_tooltip_7201",
+          "rawDisplayName": "perkstyle_displayname_7201"
+        }
+      },
+      "scores": {
+        "assists": 2,
+        "creepScore": 80,
+        "deaths": 6,
+        "kills": 4,
+        "wardScore": 14.564082145690918
+      },
+      "skinID": 0,
+      "summonerName": "kemalylc06",
+      "summonerSpells": {
+        "summonerSpellOne": {
+          "displayName": "Tutuştur",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerDot_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerDot_DisplayName"
+        },
+        "summonerSpellTwo": {
+          "displayName": "Dizginsiz Çarp",
+          "rawDescription": "GeneratedTip_SummonerSpell_S5_SummonerSmitePlayerGanker_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_S5_SummonerSmitePlayerGanker_DisplayName"
+        }
+      },
+      "team": "ORDER"
+    },
+    {
+      "championName": "Yasuo",
+      "isBot": false,
+      "isDead": true,
+      "items": [
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Kazma",
+          "itemID": 1037,
+          "price": 875,
+          "rawDescription": "GeneratedTip_Item_1037_Description",
+          "rawDisplayName": "Item_1037_Name",
+          "slot": 0
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Statikk Hançer",
+          "itemID": 3087,
+          "price": 400,
+          "rawDescription": "GeneratedTip_Item_3087_Description",
+          "rawDisplayName": "Item_3087_Name",
+          "slot": 1
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Mahvolmuş Kralın Kılıcı",
+          "itemID": 3153,
+          "price": 725,
+          "rawDescription": "GeneratedTip_Item_3153_Description",
+          "rawDisplayName": "Item_3153_Name",
+          "slot": 2
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Savaşçı Çizmeleri",
+          "itemID": 3006,
+          "price": 500,
+          "rawDescription": "GeneratedTip_Item_3006_Description",
+          "rawDisplayName": "Item_3006_Name",
+          "slot": 3
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Çeviklik Pelerini",
+          "itemID": 1018,
+          "price": 600,
+          "rawDescription": "GeneratedTip_Item_1018_Description",
+          "rawDisplayName": "Item_1018_Name",
+          "slot": 4
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "TEK Kılıcı",
+          "itemID": 1038,
+          "price": 1300,
+          "rawDescription": "GeneratedTip_Item_1038_Description",
+          "rawDisplayName": "Item_1038_Name",
+          "slot": 5
+        },
+        {
+          "canUse": true,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Görünmez Totem",
+          "itemID": 3340,
+          "price": 0,
+          "rawDescription": "GeneratedTip_Item_3340_Description",
+          "rawDisplayName": "Item_3340_Name",
+          "slot": 6
+        }
+      ],
+      "level": 14,
+      "position": "MIDDLE",
+      "rawChampionName": "game_character_displayname_Yasuo",
+      "respawnTimer": 16.49392318725586,
+      "runes": {
+        "keystone": {
+          "displayName": "Ölümcül Tempo",
+          "id": 8008,
+          "rawDescription": "perk_tooltip_LethalTempo",
+          "rawDisplayName": "perk_displayname_LethalTempo"
+        },
+        "primaryRuneTree": {
+          "displayName": "İsabet",
+          "id": 8000,
+          "rawDescription": "perkstyle_tooltip_7201",
+          "rawDisplayName": "perkstyle_displayname_7201"
+        },
+        "secondaryRuneTree": {
+          "displayName": "Hâkimiyet",
+          "id": 8100,
+          "rawDescription": "perkstyle_tooltip_7200",
+          "rawDisplayName": "perkstyle_displayname_7200"
+        }
+      },
+      "scores": {
+        "assists": 1,
+        "creepScore": 140,
+        "deaths": 8,
+        "kills": 8,
+        "wardScore": 10.548635482788086
+      },
+      "skinID": 0,
+      "summonerName": "kuzeypro02",
+      "summonerSpells": {
+        "summonerSpellOne": {
+          "displayName": "Sıçra",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+        },
+        "summonerSpellTwo": {
+          "displayName": "Tutuştur",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerDot_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerDot_DisplayName"
+        }
+      },
+      "team": "ORDER"
+    },
+    {
+      "championName": "Samira",
+      "isBot": false,
+      "isDead": false,
+      "items": [
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Doran'ın Kılıcı",
+          "itemID": 1055,
+          "price": 450,
+          "rawDescription": "GeneratedTip_Item_1055_Description",
+          "rawDisplayName": "Item_1055_Name",
+          "slot": 0
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Savaşçı Çizmeleri",
+          "itemID": 3006,
+          "price": 500,
+          "rawDescription": "GeneratedTip_Item_3006_Description",
+          "rawDisplayName": "Item_3006_Name",
+          "slot": 1
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Tahsildar",
+          "itemID": 6676,
+          "price": 625,
+          "rawDescription": "GeneratedTip_Item_6676_Description",
+          "rawDisplayName": "Item_6676_Name",
+          "slot": 2
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Işık Partikülü",
+          "itemID": 2022,
+          "price": 250,
+          "rawDescription": "GeneratedTip_Item_2022_Description",
+          "rawDisplayName": "Item_2022_Name",
+          "slot": 3
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Uzun Kılıç",
+          "itemID": 1036,
+          "price": 350,
+          "rawDescription": "GeneratedTip_Item_1036_Description",
+          "rawDisplayName": "Item_1036_Name",
+          "slot": 4
+        },
+        {
+          "canUse": true,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Görünmez Totem",
+          "itemID": 3340,
+          "price": 0,
+          "rawDescription": "GeneratedTip_Item_3340_Description",
+          "rawDisplayName": "Item_3340_Name",
+          "slot": 6
+        }
+      ],
+      "level": 10,
+      "position": "BOTTOM",
+      "rawChampionName": "game_character_displayname_Samira",
+      "respawnTimer": 0.0,
+      "runes": {
+        "keystone": {
+          "displayName": "Yenilmez",
+          "id": 8010,
+          "rawDescription": "perk_tooltip_Conqueror",
+          "rawDisplayName": "perk_displayname_Conqueror"
+        },
+        "primaryRuneTree": {
+          "displayName": "İsabet",
+          "id": 8000,
+          "rawDescription": "perkstyle_tooltip_7201",
+          "rawDisplayName": "perkstyle_displayname_7201"
+        },
+        "secondaryRuneTree": {
+          "displayName": "Hâkimiyet",
+          "id": 8100,
+          "rawDescription": "perkstyle_tooltip_7200",
+          "rawDisplayName": "perkstyle_displayname_7200"
+        }
+      },
+      "scores": {
+        "assists": 3,
+        "creepScore": 80,
+        "deaths": 5,
+        "kills": 1,
+        "wardScore": 7.845648765563965
+      },
+      "skinID": 0,
+      "summonerName": "kenpachixD",
+      "summonerSpells": {
+        "summonerSpellOne": {
+          "displayName": "Sıçra",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+        },
+        "summonerSpellTwo": {
+          "displayName": "Tutuştur",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerDot_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerDot_DisplayName"
+        }
+      },
+      "team": "ORDER"
+    },
+    {
+      "championName": "Lux",
+      "isBot": false,
+      "isDead": false,
+      "items": [
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Kara Mühür",
+          "itemID": 1082,
+          "price": 350,
+          "rawDescription": "GeneratedTip_Item_1082_Description",
+          "rawDisplayName": "Item_1082_Name",
+          "slot": 0
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Kayıp Cilt",
+          "itemID": 3802,
+          "price": 200,
+          "rawDescription": "GeneratedTip_Item_3802_Description",
+          "rawDisplayName": "Item_3802_Name",
+          "slot": 1
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Hextech Alternatörü",
+          "itemID": 3145,
+          "price": 300,
+          "rawDescription": "GeneratedTip_Item_3145_Description",
+          "rawDisplayName": "Item_3145_Name",
+          "slot": 3
+        },
+        {
+          "canUse": true,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Görünmez Totem",
+          "itemID": 3340,
+          "price": 0,
+          "rawDescription": "GeneratedTip_Item_3340_Description",
+          "rawDisplayName": "Item_3340_Name",
+          "slot": 6
+        }
+      ],
+      "level": 9,
+      "position": "UTILITY",
+      "rawChampionName": "game_character_displayname_Lux",
+      "rawSkinName": "game_character_skin_displayname_Lux_8",
+      "respawnTimer": 0.0,
+      "runes": {
+        "keystone": {
+          "displayName": "Kara Hasat",
+          "id": 8128,
+          "rawDescription": "perk_tooltip_DarkHarvest",
+          "rawDisplayName": "perk_displayname_DarkHarvest"
+        },
+        "primaryRuneTree": {
+          "displayName": "Hâkimiyet",
+          "id": 8100,
+          "rawDescription": "perkstyle_tooltip_7200",
+          "rawDisplayName": "perkstyle_displayname_7200"
+        },
+        "secondaryRuneTree": {
+          "displayName": "Büyücülük",
+          "id": 8200,
+          "rawDescription": "perkstyle_tooltip_7202",
+          "rawDisplayName": "perkstyle_displayname_7202"
+        }
+      },
+      "scores": {
+        "assists": 2,
+        "creepScore": 0,
+        "deaths": 5,
+        "kills": 0,
+        "wardScore": 14.757201194763184
+      },
+      "skinID": 8,
+      "skinName": "Ay Hanımı Lux",
+      "summonerName": "Cekku",
+      "summonerSpells": {
+        "summonerSpellOne": {
+          "displayName": "Sıçra",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+        },
+        "summonerSpellTwo": {
+          "displayName": "Tutuştur",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerDot_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerDot_DisplayName"
+        }
+      },
+      "team": "ORDER"
+    },
+    {
+      "championName": "Tryndamere",
+      "isBot": false,
+      "isDead": false,
+      "items": [
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Doran'ın Kılıcı",
+          "itemID": 1055,
+          "price": 450,
+          "rawDescription": "GeneratedTip_Item_1055_Description",
+          "rawDisplayName": "Item_1055_Name",
+          "slot": 0
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Savaşçı Çizmeleri",
+          "itemID": 3006,
+          "price": 500,
+          "rawDescription": "GeneratedTip_Item_3006_Description",
+          "rawDisplayName": "Item_3006_Name",
+          "slot": 1
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Kraken Katili",
+          "itemID": 6672,
+          "price": 400,
+          "rawDescription": "GeneratedTip_Item_6672_Description",
+          "rawDisplayName": "Item_6672_Name",
+          "slot": 2
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Çeviklik Pelerini",
+          "itemID": 1018,
+          "price": 600,
+          "rawDescription": "GeneratedTip_Item_1018_Description",
+          "rawDisplayName": "Item_1018_Name",
+          "slot": 3
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "TEK Kılıcı",
+          "itemID": 1038,
+          "price": 1300,
+          "rawDescription": "GeneratedTip_Item_1038_Description",
+          "rawDisplayName": "Item_1038_Name",
+          "slot": 4
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Kazma",
+          "itemID": 1037,
+          "price": 875,
+          "rawDescription": "GeneratedTip_Item_1037_Description",
+          "rawDisplayName": "Item_1037_Name",
+          "slot": 5
+        },
+        {
+          "canUse": true,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Görünmez Totem",
+          "itemID": 3340,
+          "price": 0,
+          "rawDescription": "GeneratedTip_Item_3340_Description",
+          "rawDisplayName": "Item_3340_Name",
+          "slot": 6
+        }
+      ],
+      "level": 15,
+      "position": "TOP",
+      "rawChampionName": "game_character_displayname_Tryndamere",
+      "rawSkinName": "game_character_skin_displayname_Tryndamere_1",
+      "respawnTimer": 0.0,
+      "runes": {
+        "keystone": {
+          "displayName": "Ölümcül Tempo",
+          "id": 8008,
+          "rawDescription": "perk_tooltip_LethalTempo",
+          "rawDisplayName": "perk_displayname_LethalTempo"
+        },
+        "primaryRuneTree": {
+          "displayName": "İsabet",
+          "id": 8000,
+          "rawDescription": "perkstyle_tooltip_7201",
+          "rawDisplayName": "perkstyle_displayname_7201"
+        },
+        "secondaryRuneTree": {
+          "displayName": "Azim",
+          "id": 8400,
+          "rawDescription": "perkstyle_tooltip_7204",
+          "rawDisplayName": "perkstyle_displayname_7204"
+        }
+      },
+      "scores": {
+        "assists": 4,
+        "creepScore": 150,
+        "deaths": 2,
+        "kills": 5,
+        "wardScore": 11.440777778625488
+      },
+      "skinID": 1,
+      "skinName": "İskoç Tryndamere",
+      "summonerName": "DeHSeT",
+      "summonerSpells": {
+        "summonerSpellOne": {
+          "displayName": "Sıçra",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+        },
+        "summonerSpellTwo": {
+          "displayName": "Hayalet",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerHaste_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerHaste_DisplayName"
+        }
+      },
+      "team": "CHAOS"
+    },
+    {
+      "championName": "Varus",
+      "isBot": false,
+      "isDead": false,
+      "items": [
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Muramana",
+          "itemID": 3042,
+          "price": 3000,
+          "rawDescription": "GeneratedTip_Item_3042_Description",
+          "rawDisplayName": "Item_3042_Name",
+          "slot": 0
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Hırpalayan",
+          "itemID": 2020,
+          "price": 212,
+          "rawDescription": "GeneratedTip_Item_2020_Description",
+          "rawDisplayName": "Item_2020_Name",
+          "slot": 1
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Ionia Çizmeleri",
+          "itemID": 3158,
+          "price": 350,
+          "rawDescription": "GeneratedTip_Item_3158_Description",
+          "rawDisplayName": "Item_3158_Name",
+          "slot": 2
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Uzun Kılıç",
+          "itemID": 1036,
+          "price": 350,
+          "rawDescription": "GeneratedTip_Item_1036_Description",
+          "rawDisplayName": "Item_1036_Name",
+          "slot": 3
+        },
+        {
+          "canUse": true,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Youmuu'nun Hayaletkılıcı",
+          "itemID": 3142,
+          "price": 800,
+          "rawDescription": "GeneratedTip_Item_3142_Description",
+          "rawDisplayName": "Item_3142_Name",
+          "slot": 5
+        },
+        {
+          "canUse": true,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Görünmez Totem",
+          "itemID": 3340,
+          "price": 0,
+          "rawDescription": "GeneratedTip_Item_3340_Description",
+          "rawDisplayName": "Item_3340_Name",
+          "slot": 6
+        }
+      ],
+      "level": 12,
+      "position": "JUNGLE",
+      "rawChampionName": "game_character_displayname_Varus",
+      "respawnTimer": 0.0,
+      "runes": {
+        "keystone": {
+          "displayName": "Sihirli Yıldız",
+          "id": 8229,
+          "rawDescription": "perk_tooltip_ArcaneComet",
+          "rawDisplayName": "perk_displayname_ArcaneComet"
+        },
+        "primaryRuneTree": {
+          "displayName": "Büyücülük",
+          "id": 8200,
+          "rawDescription": "perkstyle_tooltip_7202",
+          "rawDisplayName": "perkstyle_displayname_7202"
+        },
+        "secondaryRuneTree": {
+          "displayName": "İlham",
+          "id": 8300,
+          "rawDescription": "perkstyle_tooltip_7203",
+          "rawDisplayName": "perkstyle_displayname_7203"
+        }
+      },
+      "scores": {
+        "assists": 10,
+        "creepScore": 140,
+        "deaths": 1,
+        "kills": 7,
+        "wardScore": 9.751596450805664
+      },
+      "skinID": 0,
+      "summonerName": "piZZavenk51",
+      "summonerSpells": {
+        "summonerSpellOne": {
+          "displayName": "Sıçra",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+        },
+        "summonerSpellTwo": {
+          "displayName": "Şifa",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerHeal_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerHeal_DisplayName"
+        }
+      },
+      "team": "CHAOS"
+    },
+    {
+      "championName": "Akali",
+      "isBot": false,
+      "isDead": false,
+      "items": [
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Doran'ın Kalkanı",
+          "itemID": 1054,
+          "price": 450,
+          "rawDescription": "GeneratedTip_Item_1054_Description",
+          "rawDisplayName": "Item_1054_Name",
+          "slot": 0
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Yıldırım Asası",
+          "itemID": 4646,
+          "price": 950,
+          "rawDescription": "GeneratedTip_Item_4646_Description",
+          "rawDisplayName": "Item_4646_Name",
+          "slot": 1
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Sihirbaz Pabuçları",
+          "itemID": 3020,
+          "price": 800,
+          "rawDescription": "GeneratedTip_Item_3020_Description",
+          "rawDisplayName": "Item_3020_Name",
+          "slot": 2
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Gölgealev",
+          "itemID": 4645,
+          "price": 850,
+          "rawDescription": "GeneratedTip_Item_4645_Description",
+          "rawDisplayName": "Item_4645_Name",
+          "slot": 3
+        },
+        {
+          "canUse": true,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Kâhin Merceği",
+          "itemID": 3364,
+          "price": 0,
+          "rawDescription": "GeneratedTip_Item_3364_Description",
+          "rawDisplayName": "Item_3364_Name",
+          "slot": 6
+        }
+      ],
+      "level": 12,
+      "position": "MIDDLE",
+      "rawChampionName": "game_character_displayname_Akali",
+      "rawSkinName": "game_character_skin_displayname_Akali_66",
+      "respawnTimer": 0.0,
+      "runes": {
+        "keystone": {
+          "displayName": "Elektrik Ver",
+          "id": 8112,
+          "rawDescription": "perk_tooltip_Electrocute",
+          "rawDisplayName": "perk_displayname_Electrocute"
+        },
+        "primaryRuneTree": {
+          "displayName": "Hâkimiyet",
+          "id": 8100,
+          "rawDescription": "perkstyle_tooltip_7200",
+          "rawDisplayName": "perkstyle_displayname_7200"
+        },
+        "secondaryRuneTree": {
+          "displayName": "Azim",
+          "id": 8400,
+          "rawDescription": "perkstyle_tooltip_7204",
+          "rawDisplayName": "perkstyle_displayname_7204"
+        }
+      },
+      "scores": {
+        "assists": 6,
+        "creepScore": 80,
+        "deaths": 6,
+        "kills": 8,
+        "wardScore": 11.820406913757324
+      },
+      "skinID": 66,
+      "skinName": "Yıldız Muhafızı Akali",
+      "summonerName": "vetelaaaaaaaaaaa",
+      "summonerSpells": {
+        "summonerSpellOne": {
+          "displayName": "Sıçra",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+        },
+        "summonerSpellTwo": {
+          "displayName": "Tutuştur",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerDot_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerDot_DisplayName"
+        }
+      },
+      "team": "CHAOS"
+    },
+    {
+      "championName": "Kayn",
+      "isBot": false,
+      "isDead": false,
+      "items": [
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Yarık Gökyüzü",
+          "itemID": 6610,
+          "price": 900,
+          "rawDescription": "GeneratedTip_Item_6610_Description",
+          "rawDisplayName": "Item_6610_Name",
+          "slot": 0
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Çelik Kaplamalı Çizme",
+          "itemID": 3047,
+          "price": 500,
+          "rawDescription": "GeneratedTip_Item_3047_Description",
+          "rawDisplayName": "Item_3047_Name",
+          "slot": 1
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Kara Balta",
+          "itemID": 3071,
+          "price": 750,
+          "rawDescription": "GeneratedTip_Item_3071_Description",
+          "rawDisplayName": "Item_3071_Name",
+          "slot": 2
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Uzun Kılıç",
+          "itemID": 1036,
+          "price": 350,
+          "rawDescription": "GeneratedTip_Item_1036_Description",
+          "rawDisplayName": "Item_1036_Name",
+          "slot": 3
+        },
+        {
+          "canUse": true,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Görünmez Totem",
+          "itemID": 3340,
+          "price": 0,
+          "rawDescription": "GeneratedTip_Item_3340_Description",
+          "rawDisplayName": "Item_3340_Name",
+          "slot": 6
+        }
+      ],
+      "level": 12,
+      "position": "BOTTOM",
+      "rawChampionName": "game_character_displayname_Kayn",
+      "rawSkinName": "game_character_skin_displayname_Kayn_13",
+      "respawnTimer": 0.0,
+      "runes": {
+        "keystone": {
+          "displayName": "Yenilmez",
+          "id": 8010,
+          "rawDescription": "perk_tooltip_Conqueror",
+          "rawDisplayName": "perk_displayname_Conqueror"
+        },
+        "primaryRuneTree": {
+          "displayName": "İsabet",
+          "id": 8000,
+          "rawDescription": "perkstyle_tooltip_7201",
+          "rawDisplayName": "perkstyle_displayname_7201"
+        },
+        "secondaryRuneTree": {
+          "displayName": "İlham",
+          "id": 8300,
+          "rawDescription": "perkstyle_tooltip_7203",
+          "rawDisplayName": "perkstyle_displayname_7203"
+        }
+      },
+      "scores": {
+        "assists": 4,
+        "creepScore": 50,
+        "deaths": 3,
+        "kills": 5,
+        "wardScore": 12.04258918762207
+      },
+      "skinID": 13,
+      "skinName": "Gecenin Tırpanı Kayn",
+      "summonerName": "Wesley Sneijder",
+      "summonerSpells": {
+        "summonerSpellOne": {
+          "displayName": "Sıçra",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+        },
+        "summonerSpellTwo": {
+          "displayName": "Yabani Çarp",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerSmiteAvatarOffensive_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerSmiteAvatarOffensive_DisplayName"
+        }
+      },
+      "team": "CHAOS"
+    },
+    {
+      "championName": "Morgana",
+      "isBot": false,
+      "isDead": false,
+      "items": [
+        {
+          "canUse": true,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Düşgetiren",
+          "itemID": 3870,
+          "price": 0,
+          "rawDescription": "GeneratedTip_Item_3870_Description",
+          "rawDisplayName": "Item_3870_Name",
+          "slot": 0
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Sihirbaz Pabuçları",
+          "itemID": 3020,
+          "price": 800,
+          "rawDescription": "GeneratedTip_Item_3020_Description",
+          "rawDisplayName": "Item_3020_Name",
+          "slot": 1
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Liandry'nin Eziyeti",
+          "itemID": 6653,
+          "price": 850,
+          "rawDescription": "GeneratedTip_Item_6653_Description",
+          "rawDisplayName": "Item_6653_Name",
+          "slot": 2
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Kuvvet Kitabı",
+          "itemID": 1052,
+          "price": 400,
+          "rawDescription": "GeneratedTip_Item_1052_Description",
+          "rawDisplayName": "Item_1052_Name",
+          "slot": 3
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Kuvvet Kitabı",
+          "itemID": 1052,
+          "price": 400,
+          "rawDescription": "GeneratedTip_Item_1052_Description",
+          "rawDisplayName": "Item_1052_Name",
+          "slot": 4
+        },
+        {
+          "canUse": false,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Dokuma Zırh",
+          "itemID": 1029,
+          "price": 300,
+          "rawDescription": "GeneratedTip_Item_1029_Description",
+          "rawDisplayName": "Item_1029_Name",
+          "slot": 5
+        },
+        {
+          "canUse": true,
+          "consumable": false,
+          "count": 1,
+          "displayName": "Görünmez Totem",
+          "itemID": 3340,
+          "price": 0,
+          "rawDescription": "GeneratedTip_Item_3340_Description",
+          "rawDisplayName": "Item_3340_Name",
+          "slot": 6
+        }
+      ],
+      "level": 11,
+      "position": "UTILITY",
+      "rawChampionName": "game_character_displayname_Morgana",
+      "rawSkinName": "game_character_skin_displayname_Morgana_50",
+      "respawnTimer": 0.0,
+      "runes": {
+        "keystone": {
+          "displayName": "Sihirli Yıldız",
+          "id": 8229,
+          "rawDescription": "perk_tooltip_ArcaneComet",
+          "rawDisplayName": "perk_displayname_ArcaneComet"
+        },
+        "primaryRuneTree": {
+          "displayName": "Büyücülük",
+          "id": 8200,
+          "rawDescription": "perkstyle_tooltip_7202",
+          "rawDisplayName": "perkstyle_displayname_7202"
+        },
+        "secondaryRuneTree": {
+          "displayName": "Hâkimiyet",
+          "id": 8100,
+          "rawDescription": "perkstyle_tooltip_7200",
+          "rawDisplayName": "perkstyle_displayname_7200"
+        }
+      },
+      "scores": {
+        "assists": 8,
+        "creepScore": 10,
+        "deaths": 2,
+        "kills": 5,
+        "wardScore": 16.9499454498291
+      },
+      "skinID": 50,
+      "skinName": "Yıldız Düşmanı Morgana",
+      "summonerName": "brk",
+      "summonerSpells": {
+        "summonerSpellOne": {
+          "displayName": "Sıçra",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerFlash_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"
+        },
+        "summonerSpellTwo": {
+          "displayName": "Tutuştur",
+          "rawDescription": "GeneratedTip_SummonerSpell_SummonerDot_Description",
+          "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerDot_DisplayName"
+        }
+      },
+      "team": "CHAOS"
+    }
+  ],
+  "events": {
+    "Events": [
+      {
+        "EventID": 0,
+        "EventName": "GameStart",
+        "EventTime": 0.027362700551748276
+      },
+      {
+        "EventID": 1,
+        "EventName": "MinionsSpawning",
+        "EventTime": 65.0212173461914
+      },
+      {
+        "Assisters": [],
+        "EventID": 2,
+        "EventName": "ChampionKill",
+        "EventTime": 284.3623352050781,
+        "KillerName": "vetelaaaaaaaaaaa",
+        "VictimName": "kuzeypro02"
+      },
+      {
+        "EventID": 3,
+        "EventName": "FirstBlood",
+        "EventTime": 284.3623352050781,
+        "Recipient": "vetelaaaaaaaaaaa"
+      },
+      {
+        "Assisters": [
+          "kuzeypro02"
+        ],
+        "EventID": 4,
+        "EventName": "ChampionKill",
+        "EventTime": 287.20635986328125,
+        "KillerName": "kemalylc06",
+        "VictimName": "vetelaaaaaaaaaaa"
+      },
+      {
+        "Assisters": [
+          "kenpachixD",
+          "Cekku"
+        ],
+        "EventID": 5,
+        "EventName": "ChampionKill",
+        "EventTime": 404.1419372558594,
+        "KillerName": "kemalylc06",
+        "VictimName": "piZZavenk51"
+      },
+      {
+        "Assisters": [
+          "piZZavenk51",
+          "brk"
+        ],
+        "EventID": 6,
+        "EventName": "ChampionKill",
+        "EventTime": 406.5987548828125,
+        "KillerName": "vetelaaaaaaaaaaa",
+        "VictimName": "Cekku"
+      },
+      {
+        "Assisters": [
+          "piZZavenk51",
+          "vetelaaaaaaaaaaa",
+          "Wesley Sneijder"
+        ],
+        "EventID": 7,
+        "EventName": "ChampionKill",
+        "EventTime": 411.4038391113281,
+        "KillerName": "brk",
+        "VictimName": "kemalylc06"
+      },
+      {
+        "Assisters": [
+          "piZZavenk51",
+          "brk"
+        ],
+        "EventID": 8,
+        "EventName": "ChampionKill",
+        "EventTime": 414.00390625,
+        "KillerName": "Wesley Sneijder",
+        "VictimName": "kenpachixD"
+      },
+      {
+        "Assisters": [
+          "kemalylc06",
+          "kenpachixD"
+        ],
+        "EventID": 9,
+        "EventName": "ChampionKill",
+        "EventTime": 421.2522277832031,
+        "KillerName": "kuzeypro02",
+        "VictimName": "Wesley Sneijder"
+      },
+      {
+        "Assisters": [],
+        "EventID": 10,
+        "EventName": "ChampionKill",
+        "EventTime": 498.1501159667969,
+        "KillerName": "kuzeypro02",
+        "VictimName": "vetelaaaaaaaaaaa"
+      },
+      {
+        "Assisters": [],
+        "EventID": 11,
+        "EventName": "ChampionKill",
+        "EventTime": 508.548095703125,
+        "KillerName": "DeHSeT",
+        "VictimName": "plzhgdjTR"
+      },
+      {
+        "Assisters": [
+          "piZZavenk51"
+        ],
+        "EventID": 12,
+        "EventName": "ChampionKill",
+        "EventTime": 534.1604614257812,
+        "KillerName": "brk",
+        "VictimName": "Cekku"
+      },
+      {
+        "Assisters": [],
+        "EventID": 13,
+        "EventName": "ChampionKill",
+        "EventTime": 558.8394165039062,
+        "KillerName": "kuzeypro02",
+        "VictimName": "vetelaaaaaaaaaaa"
+      },
+      {
+        "Assisters": [],
+        "EventID": 14,
+        "EventName": "HordeKill",
+        "EventTime": 590.6655883789062,
+        "KillerName": "Wesley Sneijder",
+        "Stolen": "False"
+      },
+      {
+        "Assisters": [
+          "DeHSeT"
+        ],
+        "EventID": 15,
+        "EventName": "HordeKill",
+        "EventTime": 601.1920166015625,
+        "KillerName": "Wesley Sneijder",
+        "Stolen": "False"
+      },
+      {
+        "Assisters": [
+          "DeHSeT"
+        ],
+        "EventID": 16,
+        "EventName": "HordeKill",
+        "EventTime": 608.419189453125,
+        "KillerName": "Wesley Sneijder",
+        "Stolen": "False"
+      },
+      {
+        "Assisters": [
+          "piZZavenk51"
+        ],
+        "EventID": 17,
+        "EventName": "ChampionKill",
+        "EventTime": 618.4964599609375,
+        "KillerName": "vetelaaaaaaaaaaa",
+        "VictimName": "kuzeypro02"
+      },
+      {
+        "Assisters": [
+          "vetelaaaaaaaaaaa"
+        ],
+        "EventID": 18,
+        "EventName": "ChampionKill",
+        "EventTime": 621.9833984375,
+        "KillerName": "piZZavenk51",
+        "VictimName": "Cekku"
+      },
+      {
+        "Assisters": [
+          "Wesley Sneijder"
+        ],
+        "EventID": 19,
+        "EventName": "ChampionKill",
+        "EventTime": 662.4760131835938,
+        "KillerName": "brk",
+        "VictimName": "kemalylc06"
+      },
+      {
+        "Assisters": [
+          "plzhgdjTR"
+        ],
+        "EventID": 20,
+        "EventName": "ChampionKill",
+        "EventTime": 682.462890625,
+        "KillerName": "kuzeypro02",
+        "VictimName": "vetelaaaaaaaaaaa"
+      },
+      {
+        "Assisters": [
+          "Wesley Sneijder"
+        ],
+        "EventID": 21,
+        "EventName": "ChampionKill",
+        "EventTime": 737.7088012695312,
+        "KillerName": "vetelaaaaaaaaaaa",
+        "VictimName": "kuzeypro02"
+      },
+      {
+        "Assisters": [
+          "brk"
+        ],
+        "EventID": 22,
+        "EventName": "ChampionKill",
+        "EventTime": 782.252685546875,
+        "KillerName": "piZZavenk51",
+        "VictimName": "kemalylc06"
+      },
+      {
+        "Assisters": [],
+        "DragonType": "Air",
+        "EventID": 23,
+        "EventName": "DragonKill",
+        "EventTime": 792.7977294921875,
+        "KillerName": "Wesley Sneijder",
+        "Stolen": "False"
+      },
+      {
+        "Assisters": [],
+        "EventID": 24,
+        "EventName": "ChampionKill",
+        "EventTime": 813.332763671875,
+        "KillerName": "kuzeypro02",
+        "VictimName": "vetelaaaaaaaaaaa"
+      },
+      {
+        "Assisters": [],
+        "EventID": 25,
+        "EventName": "ChampionKill",
+        "EventTime": 819.0693969726562,
+        "KillerName": "kuzeypro02",
+        "VictimName": "Wesley Sneijder"
+      },
+      {
+        "EventID": 26,
+        "EventName": "Multikill",
+        "EventTime": 819.0693969726562,
+        "KillStreak": 2,
+        "KillerName": "kuzeypro02"
+      },
+      {
+        "Assisters": [],
+        "EventID": 27,
+        "EventName": "TurretKilled",
+        "EventTime": 847.0633544921875,
+        "KillerName": "kuzeypro02",
+        "TurretKilled": "Turret_T2_C_05_A"
+      },
+      {
+        "EventID": 28,
+        "EventName": "FirstBrick",
+        "EventTime": 847.0633544921875,
+        "KillerName": "kuzeypro02"
+      },
+      {
+        "Assisters": [],
+        "EventID": 29,
+        "EventName": "ChampionKill",
+        "EventTime": 852.3138427734375,
+        "KillerName": "DeHSeT",
+        "VictimName": "plzhgdjTR"
+      },
+      {
+        "Assisters": [
+          "plzhgdjTR"
+        ],
+        "EventID": 30,
+        "EventName": "ChampionKill",
+        "EventTime": 864.1272583007812,
+        "KillerName": "kemalylc06",
+        "VictimName": "DeHSeT"
+      },
+      {
+        "Assisters": [],
+        "EventID": 31,
+        "EventName": "ChampionKill",
+        "EventTime": 866.7811279296875,
+        "KillerName": "vetelaaaaaaaaaaa",
+        "VictimName": "kuzeypro02"
+      },
+      {
+        "Assisters": [],
+        "EventID": 32,
+        "EventName": "ChampionKill",
+        "EventTime": 887.1146850585938,
+        "KillerName": "kemalylc06",
+        "VictimName": "vetelaaaaaaaaaaa"
+      },
+      {
+        "Assisters": [],
+        "EventID": 33,
+        "EventName": "ChampionKill",
+        "EventTime": 966.0634155273438,
+        "KillerName": "vetelaaaaaaaaaaa",
+        "VictimName": "kuzeypro02"
+      },
+      {
+        "Assisters": [
+          "brk"
+        ],
+        "EventID": 34,
+        "EventName": "ChampionKill",
+        "EventTime": 970.875244140625,
+        "KillerName": "piZZavenk51",
+        "VictimName": "kenpachixD"
+      },
+      {
+        "Assisters": [],
+        "EventID": 35,
+        "EventName": "ChampionKill",
+        "EventTime": 1004.6002197265625,
+        "KillerName": "DeHSeT",
+        "VictimName": "plzhgdjTR"
+      },
+      {
+        "Assisters": [
+          "plzhgdjTR",
+          "kemalylc06",
+          "DeHSeT"
+        ],
+        "EventID": 36,
+        "EventName": "HeraldKill",
+        "EventTime": 1015.2542114257812,
+        "KillerName": "Wesley Sneijder",
+        "Stolen": "False"
+      },
+      {
+        "Assisters": [
+          "DeHSeT",
+          "vetelaaaaaaaaaaa"
+        ],
+        "EventID": 37,
+        "EventName": "ChampionKill",
+        "EventTime": 1024.208251953125,
+        "KillerName": "Wesley Sneijder",
+        "VictimName": "kemalylc06"
+      },
+      {
+        "Assisters": [
+          "piZZavenk51"
+        ],
+        "EventID": 38,
+        "EventName": "ChampionKill",
+        "EventTime": 1044.7652587890625,
+        "KillerName": "brk",
+        "VictimName": "Cekku"
+      },
+      {
+        "Assisters": [
+          "Cekku"
+        ],
+        "EventID": 39,
+        "EventName": "ChampionKill",
+        "EventTime": 1047.05419921875,
+        "KillerName": "kenpachixD",
+        "VictimName": "brk"
+      },
+      {
+        "Assisters": [],
+        "EventID": 40,
+        "EventName": "ChampionKill",
+        "EventTime": 1048.5216064453125,
+        "KillerName": "piZZavenk51",
+        "VictimName": "kenpachixD"
+      },
+      {
+        "Assisters": [
+          "DeHSeT"
+        ],
+        "EventID": 41,
+        "EventName": "ChampionKill",
+        "EventTime": 1052.78564453125,
+        "KillerName": "Wesley Sneijder",
+        "VictimName": "plzhgdjTR"
+      },
+      {
+        "Assisters": [
+          "Wesley Sneijder"
+        ],
+        "EventID": 42,
+        "EventName": "TurretKilled",
+        "EventTime": 1066.8250732421875,
+        "KillerName": "DeHSeT",
+        "TurretKilled": "Turret_T1_L_03_A"
+      },
+      {
+        "Assisters": [],
+        "EventID": 43,
+        "EventName": "TurretKilled",
+        "EventTime": 1093.2716064453125,
+        "KillerName": "Minion_T100L1S34N0211",
+        "TurretKilled": "Turret_T2_C_04_A"
+      },
+      {
+        "Assisters": [
+          "DeHSeT",
+          "piZZavenk51",
+          "brk"
+        ],
+        "EventID": 44,
+        "EventName": "ChampionKill",
+        "EventTime": 1104.9395751953125,
+        "KillerName": "Wesley Sneijder",
+        "VictimName": "kuzeypro02"
+      },
+      {
+        "Assisters": [
+          "DeHSeT"
+        ],
+        "EventID": 45,
+        "EventName": "ChampionKill",
+        "EventTime": 1124.468994140625,
+        "KillerName": "piZZavenk51",
+        "VictimName": "kemalylc06"
+      },
+      {
+        "Assisters": [
+          "vetelaaaaaaaaaaa",
+          "brk"
+        ],
+        "EventID": 46,
+        "EventName": "ChampionKill",
+        "EventTime": 1131.3790283203125,
+        "KillerName": "piZZavenk51",
+        "VictimName": "kenpachixD"
+      },
+      {
+        "EventID": 47,
+        "EventName": "Multikill",
+        "EventTime": 1131.3790283203125,
+        "KillStreak": 2,
+        "KillerName": "piZZavenk51"
+      },
+      {
+        "Assisters": [
+          "kemalylc06",
+          "kenpachixD"
+        ],
+        "EventID": 48,
+        "EventName": "ChampionKill",
+        "EventTime": 1135.2364501953125,
+        "KillerName": "plzhgdjTR",
+        "VictimName": "brk"
+      },
+      {
+        "Assisters": [
+          "DeHSeT"
+        ],
+        "DragonType": "Water",
+        "EventID": 49,
+        "EventName": "DragonKill",
+        "EventTime": 1160.6986083984375,
+        "KillerName": "Wesley Sneijder",
+        "Stolen": "False"
+      },
+      {
+        "Assisters": [
+          "piZZavenk51"
+        ],
+        "EventID": 50,
+        "EventName": "ChampionKill",
+        "EventTime": 1172.3392333984375,
+        "KillerName": "Wesley Sneijder",
+        "VictimName": "Cekku"
+      },
+      {
+        "Assisters": [],
+        "EventID": 51,
+        "EventName": "ChampionKill",
+        "EventTime": 1174.9952392578125,
+        "KillerName": "kuzeypro02",
+        "VictimName": "DeHSeT"
+      },
+      {
+        "Assisters": [],
+        "EventID": 52,
+        "EventName": "ChampionKill",
+        "EventTime": 1194.05859375,
+        "KillerName": "kuzeypro02",
+        "VictimName": "Wesley Sneijder"
+      },
+      {
+        "Assisters": [
+          "piZZavenk51",
+          "brk"
+        ],
+        "EventID": 53,
+        "EventName": "ChampionKill",
+        "EventTime": 1209.2435302734375,
+        "KillerName": "vetelaaaaaaaaaaa",
+        "VictimName": "kuzeypro02"
+      },
+      {
+        "Assisters": [
+          "vetelaaaaaaaaaaa",
+          "brk"
+        ],
+        "EventID": 54,
+        "EventName": "ChampionKill",
+        "EventTime": 1237.4744873046875,
+        "KillerName": "piZZavenk51",
+        "VictimName": "kenpachixD"
+      },
+      {
+        "Assisters": [],
+        "EventID": 55,
+        "EventName": "ChampionKill",
+        "EventTime": 1251.491455078125,
+        "KillerName": "DeHSeT",
+        "VictimName": "plzhgdjTR"
+      },
+      {
+        "Assisters": [
+          "brk"
+        ],
+        "EventID": 56,
+        "EventName": "TurretKilled",
+        "EventTime": 1256.2215576171875,
+        "KillerName": "piZZavenk51",
+        "TurretKilled": "Turret_T1_R_03_A"
+      },
+      {
+        "Assisters": [
+          "Wesley Sneijder"
+        ],
+        "EventID": 57,
+        "EventName": "ChampionKill",
+        "EventTime": 1281.5504150390625,
+        "KillerName": "vetelaaaaaaaaaaa",
+        "VictimName": "kemalylc06"
+      },
+      {
+        "Assisters": [
+          "piZZavenk51",
+          "vetelaaaaaaaaaaa"
+        ],
+        "EventID": 58,
+        "EventName": "ChampionKill",
+        "EventTime": 1302.12451171875,
+        "KillerName": "brk",
+        "VictimName": "kuzeypro02"
+      },
+      {
+        "Assisters": [],
+        "EventID": 59,
+        "EventName": "TurretKilled",
+        "EventTime": 1312.076904296875,
+        "KillerName": "DeHSeT",
+        "TurretKilled": "Turret_T1_L_02_A"
+      },
+      {
+        "Assisters": [],
+        "EventID": 60,
+        "EventName": "ChampionKill",
+        "EventTime": 1317.681396484375,
+        "KillerName": "DeHSeT",
+        "VictimName": "plzhgdjTR"
+      }
+    ]
+  },
+  "gameData": {
+    "gameMode": "CLASSIC",
+    "gameTime": 1330.55126953125,
+    "mapName": "Map11",
+    "mapNumber": 11,
+    "mapTerrain": "Infernal"
+  }
+}

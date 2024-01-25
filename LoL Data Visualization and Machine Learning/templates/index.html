@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LoL Data Visualization and Machine Learning</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<header class="container width-100 height-10">
+  <nav class="navbar fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://logodownload.org/wp-content/uploads/2014/09/lol-league-of-Legends-logo-1-1.png" alt="Bootstrap">
+        <div class="brand-text">
+          <p>Data Visualization</p>
+          <p>&</p>
+          <p>Machine Learning Project</p>
+        </div>
+      </a>
+      <div class="links">
+        <a href="#legends">Legends</a>
+        <a href="#seeChamp">See LoL Champions</a>
+        <a href="#lanes">Lanes</a>
+        <a href="#gender">Gender Distribution</a>
+        <a href="#win">LoL Match Win Result</a>
+      </div>
+    </div>
+  </nav>
+</header>
+<body class="container">
+  <div id="worldMap" class="row">
+    <script>
+      let locations = ["BRA", "NOR", "SWE", "FIN", "EST", "LVA", "LTU", "POL", "BLR", "CZE", "SVK", "UKR", "HUN", "MDA", "SVN", "HRV", "SRB", "ROU", "BIH", "XKX", "BGR", "MNE", "ALB", "MKD", "IRL", "GBR", "FRA", "BEL", "DEU", "NLD", "CHE", "ITA", "AUT", "ESP", "PRT", "JPN", "PRK", "MEX", "GTM", "SLV", "HND", "CRI", "PAN", "CUB", "HTI", "DOM", "PRI", "NIC", "VEN", "COL", "ECU", "PER", "BOL", "CHL", "PRY", "ARG", "URY", "USA", "CAN", "AUS", "NZL", "RUS", "KAZ", "UZR", "TKM", "AZE", "TUR"];
+      let groups = {
+        "1-Brazil": ["BRA"],
+        "2-Europe Nordic & East": ["NOR", "SWE", "FIN", "EST", "LVA", "LTU", "POL", "BLR", "CZE", "SVK", "UKR", "HUN", "MDA", "SVN", "HRV", "SRB", "ROU", "BIH", "XKX", "BGR", "MNE", "ALB", "MKD"],
+        "3-Europe West": ["IRL", "GBR", "FRA", "BEL", "DEU", "NLD", "CHE", "ITA", "AUT", "ESP", "PRT"],
+        "4-Japan": ["JPN"],
+        "5-Korea": ["PRK"],
+        "6-Latin America North": ["MEX", "GTM", "SLV", "HND", "CRI", "PAN", "CUB", "HTI", "DOM", "PRI", "NIC", "VEN", "COL", "ECU", "PER"],
+        "7-Latin America South": ["BOL", "CHL", "PRY", "ARG", "URY"],
+        "8-North America": ["USA", "CAN"],
+        "9-Oceania": ["AUS", "NZL"],
+        "10-Russia": ["RUS", "KAZ", "UZR", "TKM", "AZE"],
+        "11-Turkey": ["TUR"]
+      };
+
+      let data = [
+        {
+          type: 'choropleth',
+          locationmode: 'ISO-3',
+          locations: locations,
+          z: locations.map(country => {
+            for (const groupName in groups) {
+              if (groups[groupName].includes(country)) {
+                return parseInt(groupName.split('-')[0]);
+              }
+            }
+            return 0.2; 
+          }),
+          colorscale: 'Jet',
+          showscale: false
+        }
+      ];
+
+      let layout = {
+        title: 'LoL Server Regions',
+        font:{
+          color : '#C28F2C',
+          size : 20
+        },
+        hoverlabel: {
+          font: {
+            color: '#C28F2C'
+          }
+        },
+        geo: {
+          scope: 'world',
+          projection: {
+            type: 'orthographic'
+          },
+          showland: true,
+          landcolor:'rgba(0, 0, 0, 0.5)',
+          subunitcolor: 'rgb(0, 0, 0)',
+        },
+        height: 500,
+        paper_bgcolor:'rgba(0, 0, 0, 0.8)'
+      };
+
+      Plotly.newPlot('worldMap', data, layout);
+    </script>
+  </div>
+  <h2 id="legends">The Legends General Play Rates</h2>
+  <div id="playRatePlot" class="row">
+    <script>
+      var data_play = [
+        {
+          x: {{ mpcn|safe }},
+          y: {{ mpcr|safe }},
+          type: 'scatter',
+          mode: 'markers',
+        }
+      ];
+      var layout_play = {
+        font:{
+          color : '#C28F2C',
+        },
+        hoverlabel: {
+          font: {
+            color: '#C28F2C'
+          }
+        },
+        xaxis: {
+          title: {
+            text: 'The Legends',
+            standoff: 20
+          }
+        },
+        yaxis: {
+          title: 'The General Play Rates'
+        },
+        paper_bgcolor:'rgba(0, 0, 0, 0.8)',
+width: 1140,
+  height: 500,
+  margin: {
+    l: 50,
+    r: 50,
+    b: 150,
+    t: 100,
+    pad: 4
+  },
+      };
+      Plotly.newPlot('playRatePlot', data_play, layout_play)
+    </script>
+  </div>
+  <div id="seeChamp">
+  <div class="champions row">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">See Champions
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body row">
+            {% for legend in legends %}
+            <script>
+              var legendName = "{{legend.Name}}";
+              var upperCaseLegendName = legendName.toUpperCase();
+            </script>
+            <div class="col">
+              <div class="card h-100">
+                <img src="{{ images[legend.Name.upper()] }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{legend.Name}}</h5>
+                  <p class="card-text">{{legend.Title}}</p>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <h2 id="lanes">The Lane Based Data Visualization</h2>
+  <div class="lanes row">
+    <form class="row text-center">
+      <div class="col">
+        <input id="top" type="radio" name="position" value="Top">
+        <label for="top">Top</label>
+      </div>
+      <div class="col">
+        <input id="jungle" type="radio" name="position" value="Jungle">
+        <label for="jungle">Jungle</label>
+      </div>
+      <div class="col">
+        <input id="middle" type="radio" name="position" value="Middle">
+        <label for="middle">Middle</label>
+      </div>
+      <div class="col">
+        <input id="bottom" type="radio" name="position" value="Bottom">
+        <label for="bottom">Bottom</label>
+      </div>
+      <div class="col">
+        <input id="support" type="radio" name="position" value="Utility">
+        <label for="support">Support</label>
+      </div>
+    </form>
+    <div id="bar-chart" class="col-6">
+      <script>
+          datas = {{ p_based_datas|safe  }};
+          let positionInput = document.getElementsByName('position');
+          let check = 0;
+          for(i = 0; i < positionInput.length; i++){
+            positionInput[i].addEventListener('change', function() {
+              let bar_values = [];
+              let bar_labels = [];
+              for(let legend of datas[this.value]){
+                bar_values.push(legend["Rate"]);
+                bar_labels.push(legend["Name"]);
+              };
+              let data_bar = [{
+                y: bar_values,
+                x: bar_labels,
+                type: 'bar',
+              }];
+              let layout_bar = {
+                title:'The Legends Play Rates',
+                font:{
+          color : '#C28F2C',
+        },
+                xaxis: {
+                  title: 'The Legends'
+                },
+                yaxis: {
+                  title: 'The Play Rates'
+                },
+                paper_bgcolor:'rgba(0, 0, 0, 0.0)',
+
+  margin: {
+    l: 50,
+    r: 50,
+    b: 150,
+    t: 100,
+    pad: 4
+  },
+      
+              };
+              Plotly.newPlot('bar-chart', data_bar, layout_bar);
+            }
+            );
+          };
+  
+      </script>
+    </div>
+    <div id="tagsPieChart" class="col-6">
+      <script>
+        for(i = 0; i < positionInput.length; i++){
+            positionInput[i].addEventListener('change', function() {
+              let pie_values = [];
+              let pie_labels = [];
+              for(let legend of datas[this.value]){
+                let tags = ""
+                for(i = 0; i<legend["Tags"].length; i++){
+                  tags = tags + " " + legend["Tags"][i];
+                } 
+                if (pie_labels.includes(tags)){
+                  pie_values[pie_labels.indexOf(tags)] = pie_values[pie_labels.indexOf(tags)] + 1;
+                }
+                else{
+                  pie_labels.push(tags);
+                  pie_values.push(1);
+                }
+              };
+          let data_pie = [{
+              values: pie_values,
+              labels: pie_labels,
+              type: 'pie',
+              }];
+          let layout_pie = {
+            title : 'The Legends Role Distribution',
+            font:{
+              color : '#C28F2C',
+            },
+            paper_bgcolor:'rgba(0, 0, 0, 0.0)',
+            margin: {
+              l: 50,
+              r: 50,
+              b: 150,
+              t: 100,
+              pad: 4
+            },
+          };
+          Plotly.newPlot('tagsPieChart', data_pie, layout_pie);
+          });
+        };
+      </script>
+    </div>
+    <div id="info_bar_chart" class="row">
+      <script>
+        for(i = 0; i < positionInput.length; i++){
+            positionInput[i].addEventListener('change', function() {
+              let labels = ["Level 0", "Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10"];
+              let attack_values = [];
+              let defense_values = [];
+              let difficulty_values = [];
+              let magic_values = [];
+              for(i = 0; i < labels.length; i++){
+                attack_values.push(0);
+                defense_values.push(0);
+                difficulty_values.push(0);
+                magic_values.push(0);
+              }
+              for(let legend of datas[this.value]){
+                attack_values[labels.indexOf("Level " + legend["Attack"])] = attack_values[labels.indexOf("Level " + legend["Attack"])] + 1;
+                defense_values[labels.indexOf("Level " + legend["Defense"])] = defense_values[labels.indexOf("Level " + legend["Defense"])] + 1;
+                difficulty_values[labels.indexOf("Level " + legend["Difficulty"])] = difficulty_values[labels.indexOf("Level " + legend["Difficulty"])] + 1;
+                magic_values[labels.indexOf("Level " + legend["Magic"])] = magic_values[labels.indexOf("Level " + legend["Magic"])] + 1;
+              };
+              var attack = {
+                x: labels,
+                y: attack_values,
+                mode: 'markers',
+                type: 'scatter',
+                name: 'Attack',
+                marker:{
+                  opacity: 0.6,
+                  size: 15
+                }
+              };
+              var defense = {
+                x: labels,
+                y: defense_values,
+                mode: 'markers',
+                type: 'scatter',
+                name: 'Defense',
+                marker:{
+                  opacity: 0.6,
+                  size: 15
+                }
+              }
+              var difficulty = {
+                x: labels,
+                y: difficulty_values,
+                mode: 'markers',
+                type: 'scatter',
+                name: 'Difficulty',
+                marker:{
+                  opacity: 0.6,
+                  size: 15
+                }
+              }
+              var magic = {
+                x: labels,
+                y: magic_values,
+                mode: 'markers',
+                type: 'scatters',
+                name: 'Magic',
+                marker:{
+                  opacity: 0.6,
+                  size: 15
+                }
+              }
+          let data_info = [attack, defense, difficulty, magic];
+          let layout_info = {
+            title: 'The Legends Abilities Distribution',
+            paper_bgcolor:'rgba(0, 0, 0, 0.0)',
+            font:{
+              color : '#C28F2C',
+            },
+          };
+          Plotly.newPlot('info_bar_chart', data_info, layout_info);
+          });
+        };
+        if (check == 0){
+            let top = document.getElementById('top');
+            top.click();
+            check++
+          };
+      </script>
+    </div>
+  </div>
+  <h2 id="gender">Legends Gender Distribution</h2>
+  <div class="gender-plots row w-100">
+    <div id="genderPieChart" class="row width-100">
+      <script>
+          var data1 = [{
+              values: [{{ female_count }}, {{ male_count }}, {{ other_count }}],
+              labels: ['Female', 'Male', 'Other'],
+              type: 'pie'
+          }];
+      
+          var layout1 = {
+  
+              title: 'Champion Gender Distribution',
+              font:{
+                color : '#C28F2C',
+              },
+              paper_bgcolor:'rgba(0, 0, 0, 0.0)',
+              width: 1140,
+          };
+          Plotly.newPlot('genderPieChart', data1, layout1);
+      </script>
+    </div> 
+
+  <div id="primaryBarChart" class="row">
+    <script>
+      var primaryRoles = {{ pd_primary_role_female.index.to_list()|tojson|safe }};
+      var femaleData = {{ pd_primary_role_female.to_list()|tojson|safe }};
+      var maleData = {{ pd_primary_role_male.to_list()|tojson|safe }};
+      var otherData = {{ pd_primary_role_other.to_list()|tojson|safe }};
+  
+      var primary_role_data = [
+        {
+          x: primaryRoles,
+          y: femaleData,
+          type: 'bar',
+          name: 'Female'
+        },
+        {
+          x: primaryRoles,
+          y: maleData,
+          type: 'bar',
+          name: 'Male'
+        },
+        {
+          x: primaryRoles,
+          y: otherData,
+          type: 'bar',
+          name: 'Other'
+        }
+      ];
+  
+      var primary_role_layout = {
+        barmode: 'group',
+        height: 400,
+        width: 800,
+        title: 'Champion Gender Distribution by Primary Role',
+        xaxis: {
+          title: 'Primary Role'
+        },
+        yaxis: {
+          title: 'Champion Count'
+        },
+        font:{
+                color : '#C28F2C',
+              },
+              paper_bgcolor:'rgba(0, 0, 0, 0.0)',
+              width: 1140,
+      };
+  
+      Plotly.newPlot('primaryBarChart', primary_role_data, primary_role_layout);
+    </script>
+  </div>
+  <div id="laneBarChart" class="row">
+    <script>
+      var lane = {{ pd_lane_female.index.to_list()|tojson|safe }};
+      var femaleData = {{ pd_lane_female.to_list()|tojson|safe }};
+      var maleData = {{ pd_lane_male.to_list()|tojson|safe }};
+      var otherData = {{ pd_lane_other.to_list()|tojson|safe }};
+  
+      var lane_data = [
+        {
+          x: lane,
+          y: femaleData,
+          type: 'bar',
+          name: 'Female'
+        },
+        {
+          x: lane,
+          y: maleData,
+          type: 'bar',
+          name: 'Male'
+        },
+        {
+          x: lane,
+          y: otherData,
+          type: 'bar',
+          name: 'Other'
+        }
+      ];
+  
+      var lane_layout = {
+        barmode: 'group',
+        height: 400,
+        width: 800,
+        title: 'Champion Gender Distribution by Lane',
+        xaxis: {
+          title: 'Lane'
+        },
+        yaxis: {
+          title: 'Champion Count'
+        },
+        font:{
+                color : '#C28F2C',
+              },
+              paper_bgcolor:'rgba(0, 0, 0, 0.0)',
+              width: 1140,
+      };
+  
+      Plotly.newPlot('laneBarChart', lane_data, lane_layout);
+    </script>
+  </div>
+    </div>
+  </div>
+    </div>
+
+    <div id="win">
+      <div class="table">
+        <h2>Match Prediction Result</h2>
+      <div id="predictionResults"></div>
+      <button id="predictionButton" onclick="makePrediction()">Make Prediction</button>
+      </div>
+  </div>
+  
+  <script>
+      function makePrediction() {
+          
+          document.getElementById('predictionResults').innerHTML = "<p>Making Prediction...</p>";
+          
+          fetch('/predict', { method: 'POST' })
+              .then(response => response.json())
+              .then(data => {
+                
+                  var results = data.results;
+
+                  var resultsHTML = "<ul>";
+  
+                  results.forEach(result => {
+                      resultsHTML += "<li>" + result + "</li>";
+                  });
+  
+                  resultsHTML += "</ul>";
+  
+                  document.getElementById('predictionResults').innerHTML = resultsHTML;
+              })
+              .catch(error => console.error('Prediction error:', error));
+      }
+  </script>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

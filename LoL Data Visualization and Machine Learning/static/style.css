@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;600&display=swap');
+
+*{
+  margin: 0!important;
+  padding: 0!important;
+  box-sizing: border-box;
+  font-family: 'Bitter', serif!important;
+}
+html{
+  background-image: url(https://th.bing.com/th/id/R.86ce9244fc964218b412c773482b04dc?rik=ubvJO%2b3LLatjfg&pid=ImgRaw&r=0);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body{
+  background-color: rgba(10, 42, 64, 0.0);
+  margin: auto!important;
+}
+header{
+  width: fit-content;
+  height: 110px;
+}
+nav{
+  background-color: rgba(10, 42, 64, 0.9);
+  
+}
+nav .container-fluid{
+  padding: 10px 25px!important;
+}
+.navbar-brand{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.navbar-brand img{
+  width: 50px;
+  height: 50px;
+  margin-right: 25px!important;
+}
+.brand-text{
+  color: #C28F2C;
+  font-weight: 600;
+}
+nav .links a{
+  color : #C28F2C;
+  text-decoration-style: none;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 25px!important;
+}
+body{
+  display: flexbox;
+  align-items: center;
+  text-align: center;
+}
+#worldMap{
+  width: 100%;
+}
+#worldMap rect, #laneBarChart rect, #primaryBarChart rect{
+  fill: rgba(0, 0, 0,0.0)!important;
+}
+#legends, #lanes, #gender, #win, #seeChamp{
+  color: #C28F2C;
+  font-size: 20;
+  padding: 50px auto!important;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 100px!important
+}
+#playRatePlot{
+  margin: 50px 0 50px 0;
+}
+#playRatePlot rect, #bar-chart rect, #tagsPieChart rect, #info_bar_chart rect{
+  fill: rgba(0, 0, 0,0.0)!important;
+}
+.plot-container{
+  height: 500px;
+}
+.accordion-item{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.accordion-header{
+height: 200px;
+display: flex;
+align-items: center;
+
+}
+.champions{
+  margin: 50 0 50 0!important;
+}
+img{
+  width: 100px;
+}
+.cards-wrapper {
+  display: flex;
+  justify-content: left;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.accordion-button{
+  padding-right: 30px!important;
+  padding-left: 30px!important;
+  height: 100px;
+  background-color: rgba(10, 42, 64, 0.6);
+  color: #C28F2C;
+}
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+  border-radius: 5px;
+}
+.card{
+  width: 110px;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+}
+.card h5, .card p{
+  color: #C28F2C;
+  
+}
+.card:hover{
+  background-color: rgba(10, 42, 64, 0.6);
+  box-shadow: 2px 5px 5px rgba(10, 42, 64, 0.6);
+}
+.lanes{
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 50px!important;
+}
+.col{
+  margin-bottom: 50px!important;
+}
+form .col{
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #C28F2C;
+  
+}
+form .col:hover{
+  background-color: rgba(10, 42, 64, 0.6);
+  border-radius: 10px;
+}
+.radio input[type='radio'] {
+  display: none; 
+}
+
+.radio label:before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin: 0 5px 0 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  border: 2px solid orange;
+  background-color: transparent;
+}
+
+.radio label input[type='radio']:checked + span {
+  border-radius: 11px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 1px;
+  left: 6px;
+  display: block;
+  background-color: blue;
+}
+#laneBarChart, #primaryBarChart, #genderPieChart{
+  width: min-content;
+  margin: auto;
+}
+.gender-plots{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#predictionButton {
+  background-color: rgba(10, 42, 64, 0.7);
+  color: #C28F2C;
+  padding: 20px 40px!important; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px; 
+  margin: 10px 2px!important; 
+  cursor: pointer;
+  border: 2px solid #C28F2C;
+  border-radius: 10px;
+  margin-top: 40px!important; 
+}
+
+#predictionButton:hover {
+  background-color: rgba(10, 42, 64, 0.9);
+}
+
+#predictionButton:active {
+  background-color: rgba(10, 42, 64, 0.8);
+  transform: translateY(2px);
+}
+
+#predictionResults {
+  margin-top: 20px!important; 
+}
+
+#win {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  padding-top: 0!important;
+}
+
+.table{
+ border:   5px solid #C28F2C;
+ height: 300px;
+ align-items: center!important;
+ text-align: center;
+ width: 700px;
+ padding-top: 75px!important;
+ border-radius: 10px;
+}
